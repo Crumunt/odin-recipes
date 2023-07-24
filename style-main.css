@@ -1,18 +1,44 @@
+body {
+  background-color: blanchedalmond;
+}
+
+img {
+  position: absolute;
+}
+
+.container {
+  
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  background-color: white;
+}
+
 .page-title {
   text-align: center;
 }
 
-.recipe-titles {
+.recipe-container {
   font-size: 20px;
   text-align: center;
+  line-height: 50px;
+}
+
+.recipe-name {
+  color: black;
+  text-decoration: none;
+}
+
+.recipe-name:hover {
+  text-decoration: underline;
+  color: cadetblue;
 }
 
 .recipe-list {
   display: inline-block;
   text-align: left;
-}
-
-.recipe-link {
-  color: black;
-  text-decoration: none;
 }
