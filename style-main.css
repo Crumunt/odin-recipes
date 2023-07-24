@@ -2,12 +2,7 @@ body {
   background-color: blanchedalmond;
 }
 
-img {
-  position: absolute;
-}
-
 .container {
-  
   border-style: solid;
   border-width: 1px;
   border-radius: 50px;
