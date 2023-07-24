@@ -1,0 +1,21 @@
+
+.container {
+  border-style: solid;
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-content {
+  border-style: solid;
+  flex: 0.5;
+  text-align: center;
+}
+
+.recipe-list {
+}
+
+.right-content {
+  border-style: solid;
+  flex: 1;
+}
