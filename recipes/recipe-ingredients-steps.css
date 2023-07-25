@@ -1,21 +1,75 @@
 
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(to left, blueviolet, rgb(150, 6, 150));
+}
+
+
 .container {
   border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
   margin: 5% auto;
   display: flex;
   justify-content: space-around;
+  background-color: white;
 }
 
+.container#hash {
+  height: 250px; 
+  width: 900px;
+}
+
+
 .left-content {
-  border-style: solid;
-  flex: 0.5;
+  /* border-style: solid; */
+  flex: 1;
   text-align: center;
 }
 
+
 .recipe-list {
+  margin: 0;
+  padding-right: 10px;
+  text-align: left;
+  border-right: solid;
+  border-width: 1px;
+  height: 500px;
+  line-height: 30px;
+}
+
+.recipe-list#hash-recipe {
+  height: 120px;
+}
+
+.recipe-list#lasagna {
+  height: 230px;
 }
 
 .right-content {
+  /* border-style: solid; */
+  text-align: left;
+  flex: 2;
+}
+
+.instructions {
+  text-align: center;
+}
+
+.recipe-steps {
+  padding-right: 15px;
+  line-height: 40px;
+}
+
+.recipe-steps#donut {
+  line-height: 20px;
+}
+
+.bottom-content {
   border-style: solid;
-  flex: 1;
+  border-width: 1px;
+  border-radius: 15px;
+  margin: 5% auto;
+  justify-content: space-around;
+  background-color: white;
 }
